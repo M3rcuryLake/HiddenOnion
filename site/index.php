@@ -12,13 +12,13 @@
     <link rel="stylesheet" href="output.css"/>
 </head>
 <body>
-<div class="max-w-5xl mx-auto p-4 text-slate-700">
+<div class="md:max-w-5xl max-w-screen mx-auto p-4 text-slate-700">
 	<p class="text-center underline decoration-red-400 font-extrabold mt-28 mb-4 text-4xl font-RockSalt">SilentLake</p>
 	<p class="font-Neucha text-lg mb-28 font-semibold text-center">Yeah..its me...Ankit Mukherjee...<p>
 	<p class="font-Montserrat font-semibold">Sooo...finally...You moved ur ass to find this highly underground single page website (more like a flyer) to get a understanding that im not a regular teen coder u meet in ur everyday life.....cuz a regular teen Mobby Dick never hosts a dark web site (uk...he maybe busy with tiktock or something)<p>
 	<p class="font-Montserrat font-semibold mt-10">Well...Im a web developer-freelancer and blah blah....cut out that crap and yeah.....do I even need a dark web site on top of a cloudflare pages, static <a class="font-bold text-red-400" href="https://M3rcuryLake.pages.dev">Blog website</a>? absolutely not....and Im not supposed to....Cuz this is considered a complete waste of time.....yeah...(im a Jee aspirant....dk what that means?...google it)</p>
 	<p class="font-Montserrat font-semibold mb-28 mt-10">Yeah but....Shit never goes as planned.....<p>
-	<div class="text-red-400 font-Nunito font-semibold ">
+	<div class="text-red-400 font-Nunito font-semibold p-3 border-2 border-red-300 bg-red-50 ">
           <h2 class="text-slate-700 font-bold text-xl font-Neucha mb-6 underline">:: Onion Link ↗ ::</h2>
           <?php
           if (file_exists(__DIR__.'/../temp/var/lib/tor/hidden_service/hostname')) {
