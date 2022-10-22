@@ -18,12 +18,12 @@
 	<p class="font-Montserrat font-semibold">Sooo...finally...You moved ur ass to find this highly underground single page website (more like a flyer) to get a understanding that im not a regular teen coder u meet in ur everyday life.....cuz a regular teen Mobby Dick never hosts a dark web site (uk...he maybe busy with tiktock or something)<p>
 	<p class="font-Montserrat font-semibold mt-10">Well...Im a web developer-freelancer and blah blah....cut out that crap and yeah.....do I even need a dark web site on top of a cloudflare pages, static <a class="font-bold text-red-400" href="https://M3rcuryLake.pages.dev">Blog website</a>? absolutely not....and Im not supposed to....Cuz this is considered a complete waste of time.....yeah...(im a Jee aspirant....dk what that means?...google it)</p>
 	<p class="font-Montserrat font-semibold mb-28 mt-10">Yeah but....Shit never goes as planned.....<p>
-	<div class="text-red-400 font-Nunito font-semibold p-3 border-2 border-red-300 md:max-w-5xl max-w-xl bg-red-50 rounded-md shadow">
+	<div class="text-red-400 font-Nunito font-semibold p-3 border-2 border-red-300 max-w-xl bg-red-50 rounded-md shadow">
           <h2 class="text-slate-700 font-bold text-xl font-Neucha mb-6 underline ">:: Onion Link ↗ ::</h2>
           <?php
           if (file_exists(__DIR__.'/../temp/var/lib/tor/hidden_service/hostname')) {
               $output = file_get_contents(__DIR__.'/../temp/var/lib/tor/hidden_service/hostname');
-              echo "For anyone to access the Hidden service here is the <a class="text-red-400" href=http://$output>Onion Link</a>. Most intriguing part of the service is it refreshes it hostname every 10 mins or so.....a feature for some, a bug for me 🔪";
+              echo "<a href=http://$output>Onion Link</a> 🔪";
           } else {
               $output = "No domain";
               echo '<p>Something went wrong (Shit) ...</p>';
