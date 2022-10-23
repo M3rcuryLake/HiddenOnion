@@ -23,7 +23,7 @@
           <?php
           if (file_exists(__DIR__.'/../temp/var/lib/tor/hidden_service/hostname')) {
               $output = file_get_contents(__DIR__.'/../temp/var/lib/tor/hidden_service/hostname');
-              echo "<a href=http://$output>Onion Link</a> 🔪";
+              echo "<a href=http://$output>Here it is...the Hidden Onion</a> 🔪";
           } else {
               $output = "No domain";
               echo '<p>Something went wrong (Shit) ...</p>';
